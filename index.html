@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Awesome Image Gallery</h1>
+    </header>
+
+    <main>
+        <div id="image">
+            Hover over an image below to display here!
+        </div>
+
+        <div id="thumbnails">
+            <img class="preview" alt="Mountain Landscape" src="https://picsum.photos/id/237/200/300" onmouseover="upDate(this)" onmouseout="unDo()">
+            <img class="preview" alt="City at Night" src="https://picsum.photos/id/23/200/300" onmouseover="upDate(this)" onmouseout="unDo()">
+            <img class="preview" alt="Forest Path" src="https://picsum.photos/id/238/200/300" onmouseover="upDate(this)" onmouseout="unDo()">
+            <img class="preview" alt="Ocean Sunset" src="https://picsum.photos/id/239/200/300" onmouseover="upDate(this)" onmouseout="unDo()">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Gallery</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
